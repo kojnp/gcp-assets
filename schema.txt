@@ -23,6 +23,14 @@
     {
       "name": "vm_license_name",
       "type": "STRING"
+    },
+    {
+      "name": "source_disk",
+      "type": "STRING"
+    },
+    {
+      "name": "edge_case",
+      "type": "STRING"
     }
   ]
 }
