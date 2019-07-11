@@ -12,7 +12,8 @@ https://github.com/GoogleCloudPlatform/professional-services/tree/master/tools/a
 
 then to get #of os used in the org do:
 
-```SELECT vm_license_name, count(*) FROM `PROJECT.DATASET.vms2` 
+```
+SELECT vm_license_name, count(*) FROM `PROJECT.DATASET.vms2` 
 where vm_license_name is not null 
 group by vm_license_name 
 order by 2 desc
