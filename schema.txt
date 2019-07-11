@@ -1,0 +1,28 @@
+{
+  "BigQuery Schema": [
+    {
+      "name": "name",
+      "type": "STRING"
+    },
+    {
+      "name": "asset_type",
+      "type": "STRING"
+    },
+    {
+      "name": "resource",
+      "type": "STRING"
+    },
+    {
+      "name": "vm_name",
+      "type": "STRING"
+    },
+    {
+      "name": "vm_project",
+      "type": "STRING"
+    },
+    {
+      "name": "vm_license_name",
+      "type": "STRING"
+    }
+  ]
+}
