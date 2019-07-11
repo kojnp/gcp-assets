@@ -7,14 +7,13 @@ https://cloud.google.com/sdk/gcloud/reference/asset/export
 
 and extracts VM names and OS name
 
-focuses on some edge cases, tested with a large org (thousands of vms)
-
 found this after the fact
 https://github.com/GoogleCloudPlatform/professional-services/tree/master/tools/asset-inventory
 
-then simply do:
+then to get #of os used in the org do:
 
-SELECT vm_license_name, count(*) FROM `PROJECT.DATASET.vms2` 
+```SELECT vm_license_name, count(*) FROM `PROJECT.DATASET.vms2` 
 where vm_license_name is not null 
 group by vm_license_name 
 order by 2 desc
+```
